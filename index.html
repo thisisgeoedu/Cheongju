@@ -270,7 +270,6 @@ Promise.all([
   
   safehouseLayer = L.geoJSON(safehouseData,{pointToLayer:(f,l)=>L.marker(l),onEachFeature:bindSimplePopup});
   coolLayer = L.geoJSON(coolData,{pointToLayer:(f,l)=>L.marker(l),onEachFeature:bindSimplePopup});
-  subwayLayer = L.geoJSON(subwayData,{pointToLayer:(f,l)=>L.marker(l),onEachFeature:bindSimplePopup});
   oliveLayer = L.geoJSON(oliveData,{pointToLayer:(f,l)=>L.marker(l),onEachFeature:bindSimplePopup});
   karaokeLayer = L.geoJSON(karaokeData,{pointToLayer:(f,l)=>L.marker(l),onEachFeature:bindSimplePopup});
   dustLayer = L.geoJSON(dustData,{pointToLayer:(f,l)=>L.marker(l),onEachFeature:bindSimplePopup});
